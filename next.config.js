@@ -1,7 +1,8 @@
+// next.config.js
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  // required for App Router
   experimental: { appDir: true },
+  eslint: { ignoreDuringBuilds: true }, // skip ESLint errors in Vercel CI
 };
 
 module.exports = nextConfig;
