@@ -1,0 +1,22 @@
+{
+  "name": "calendar-blocker",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "next": "15.3.1",
+    "next-auth": "^4.24.11",
+    "react": "19.1.0",
+    "react-dom": "19.1.0"
+  },
+  "devDependencies": {
+    "@types/node": "22.15.2",
+    "@types/react": "19.1.2",
+    "dotenv-cli": "^8.0.0",
+    "typescript": "5.8.3"
+  }
+}
